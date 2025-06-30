@@ -181,6 +181,7 @@ void delay(unsigned long microsec) // instead usleep
 
 ---  
 
-### **English**  
-**Level: B1**  
-*Can read documentation, communicate in writing.* 
+### **Languages**  
+**English. Level: B1**  
+*Can read documentation, communicate in writing.*
+**Russian. Native**
