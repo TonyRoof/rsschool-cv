@@ -1,3 +1,5 @@
+![Anthony](img/self.jpg)
+
 # **Anthony Lou**  
 
 ### **Contact Info**  
