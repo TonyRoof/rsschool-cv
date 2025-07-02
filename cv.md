@@ -1,4 +1,4 @@
-![Anthony](img/self.jpg)
+![Anthony](assets/img/self.jpg)
 
 # **Anthony Lou**  
 
