@@ -1,3 +1,9 @@
-header {
-	background-color: #f0f0f0;
+@font-face {
+  font-family: serif;
+  src: url("assets/fonts/garamond.ttf");
+}
+
+@font-face {
+  font-family: sans-serif;
+  src: url("assets/fonts/worksans.ttf");
 }
