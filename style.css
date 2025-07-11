@@ -176,3 +176,79 @@
   color: var(--accent-color);
 }
 
+.contact-link {
+  color: var(--dark-color);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+}
+
+.contact-link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-item {
+  position: relative;
+  margin-bottom: 8px;
+  padding-left: 15px;
+}
+
+.skills-item::before {
+  content: "·";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+}
+.skill-category {
+  font-weight: 600;
+}
+
+.code-example {
+  padding: 15px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #f5f5f5;
+}
+
+.project-list {
+  list-style: none;
+}
+
+.project-item {
+  margin-bottom: 15px;
+}
+
+.project-link {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary-color);
+  transition: color var(--transition-speed) ease;
+}
+
+.project-link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+.project-details {
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.project-detail {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.project-detail::before {
+  content: "—";
+  position: absolute;
+  left: -20px;
+}
