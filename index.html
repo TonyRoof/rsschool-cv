@@ -56,42 +56,53 @@
             <h2 class="section-title">Summary</h2>
             <p class="summary-text">My goal is to solve problems through code — because it&rsquo;s fun! My priorities: learning, improving, and building useful things. My strengths include punctuality and the ability to learn quickly. No professional experience yet, but I’m eager to grow.</p>
         </section>
-        <section class="section" id="skills">
+        <section class="content-section" id="skills">
             <h2 class="section-title">Skills</h2>
             <ul class="skills-list">
-                <li class="skills-item"><span class="skills-general">Version Control</span>: Git (basic)</li>
-                <li class="skills-item"><span class="skills-general">Programming</span>: C (basic), Python (basic), HTML/CSS (basic)</li>
-                <li class="skills-item"><span class="skills-general">Tools</span>: Windows, Ubuntu</li>
-            </ul>
-        </section>
-        <section class="section" id="code">
-            <h2 class="section-title">Code Examples</h2>
-            <pre>int multiply (int a, int b) {
-return a*b;
-}</pre>
-        </section>
-        <section class="section" id="experience">
-            <h2 class="section-title">Experience</h2>
-            <ul class="project">
-                <li><a href="https://github.com/TonyRoof/school21/blob/main/the_game_of_life">The Game of Life</a>
-                    <ul class="project-in">
-                        <li class="project-item">Implemented cellular automaton rules with random initialization.</li>
-                        <li class="project-item">Output visualization via terminal.</li>
-                        <li class="project-item">Skills used: C, basic algorithms.</li>
-                    </ul>
+                <li class="skills-item">
+                    <span class="skills-category">Version Control:</span> Git (basic)
+                </li>
+                <li class="skills-item">
+                    <span class="skills-category">Programming:</span> C (basic), Python (basic), HTML/CSS (basic)
+                </li>
+                <li class="skills-item">
+                    <span class="skills-category">Tools:</span> Windows, Ubuntu
                 </li>
             </ul>
         </section>
-        <section class="section" id="education">
-            <h2 class="section-title">Education</h2>
-            <ul class="education-list">
-                <li class="edication-item"><span class="education-general">School 21</span> (Intensive Programming Course) &ndash; Completed</li>
-                <li class="edication-item"><span class="education-general">Python for Everybody</span> &ndash; University of Michigan (freeCodeCamp) &ndash; In progress</li>
+        <section class="content-section" id="code">
+            <h2 class="section-title">Code Examples</h2>
+            <pre class="code-example"><code>int multiply (int a, int b) {
+return a*b;
+}</code></pre>
+        </section>
+        <section class="content-section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="project-list">
+                <li class="project-item">
+                    <a href="https://github.com/TonyRoof/school21/blob/main/the_game_of_life">The Game of Life</a>
+                        <ul class="project-detales">
+                            <li class="project-detail">Implemented cellular automaton rules with random initialization.</li>
+                            <li class="project-detail">Output visualization via terminal.</li>
+                            <li class="project-detail">Skills used: C, basic algorithms.</li>
+                        </ul>
+                </li>
             </ul>
         </section>
-        <section class="section" id="languages">
+        <section class="content-section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="education-list">
+                <li class="edication-item">
+                    <span class="education-institution">School 21</span> (Intensive Programming Course) &ndash; Completed
+                </li>
+                <li class="edication-item">
+                    <span class="education-institution">Python for Everybody</span> &ndash; University of Michigan (freeCodeCamp) &ndash; In progress
+                </li>
+            </ul>
+        </section>
+        <section class="content-section" id="languages">
             <h2 class="section-title">Languages</h2>
-            <ul class="languages-list">
+            <ul class="language-list">
                 <li class="language-item">English &ndash; B1</li>
                 <li class="language-item">Russian &ndash; native</li>
             </ul>
@@ -99,11 +110,19 @@ return a*b;
     </div>
     </main>
     <footer class="footer">
-    <div class="container">
-        <a href="https://github.com/TonyRoof"><img src="./assets/img/github.png" alt="GitHub link" width="50" height="50"></a>
-        <a href="https://rs.school/courses/javascript-ru"><img src="./assets/img/logo.svg" alt="RSS link" height="50"></a>
-        <p class="footer-text">&copy; 2025 Anthony Lou</p>
-    </div>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p class="copywright">&copy; 2025 Anthony Lou</p>
+                <div class="footer-links">
+                    <a href="https://github.com/TonyRoof" class="github-link" aria-label="GitHub profile">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://rs.school/courses/javascript-ru" class="course-link" aria-label="RS School course">
+                        <img src="./assets/img/logo.svg" alt="RS School logo" class="course-logo">
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
